@@ -12,4 +12,24 @@
 
 ###############################
 # Import des librairies
+
 import tkinter as tk
+
+###############################
+# Constantes
+
+
+###############################
+# Variables globales
+
+
+###############################
+# Fonctions
+
+
+###############################
+# Programme principal
+
+racine = tk.Tk()
+
+racine.mainloop()
