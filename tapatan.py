@@ -90,3 +90,17 @@ tableau_terrain()
 print(tableau)
 canvas.bind('<Button-1>', placer_pion)
 racine.mainloop()
+
+###############################
+# Programme principal
+
+racine = tk.Tk()
+
+canvas = tk.Canvas(racine, height=HEIGHT, width=WIDTH, bg="black")
+affiche_terrain()
+
+canvas.grid()
+tableau_terrain()
+print(tableau)
+canvas.bind('<Button-1>', placer_pion)
+racine.mainloop()
